@@ -33,6 +33,7 @@ function App() {
          <p>Welcome to S P A C E  O U T</p> 
          <p>A place to relax :)</p>
       </div>
+
     </div>
   );
 }
