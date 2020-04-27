@@ -24,23 +24,23 @@ function App() {
 
       <Router>
       <div className="HomeTab">
-      <Link to="/" style={{textDecoration: 'none'}}> Home </Link>
+      <Link to="/" style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}><p > Home </p></Link>
       </div>
 
       <div className="KidsTab">
-      <Link to='/kids'style={{textDecoration: 'none'}}> Kids </Link>
+      <Link to='/kids'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Kids </Link>
       </div>
      
       <div className="TeensTab">
-      <Link to='/teens'style={{textDecoration: 'none'}}> Teens </Link>
+      <Link to='/teens'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Teens </Link>
       </div>
       
       <div className="AdultsTab">
-      <Link to='/adults'style={{textDecoration: 'none'}}> Adults </Link>
+      <Link to='/adults'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Adults </Link>
       </div>
       
       <div className="AboutTab">
-      <Link to='/about'style={{textDecoration: 'none'}}> About </Link>
+      <Link to='/about'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> About </Link>
       </div>
 
       <Route exact path = "/" component = {HomePage}/>
