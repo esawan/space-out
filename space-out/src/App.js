@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 import HomePage from "./components/HomePage/HomePage";
-import Kids from "./Kids";
 import KidsPage from "./components/KidsPage/KidsPage";
 import TeensPage from "./components/TeensPage/TeensPage";
 
