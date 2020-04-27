@@ -46,15 +46,14 @@ function App() {
       <Route exact path = "/" component = {HomePage}/>
       <Route exact path = "/kids" component = {KidsPage}/>
       <Route exact path = "/teens" component = {TeensPage}/>
+      <Route exact path = "/adults" component = {AdultsPage}/>
+      <Route exact path = "/about" component = {AboutPage}/>
       </Router>
 
+      
       <div className="Content">
-         <p>Welcome to S P A C E  O U T</p> 
-         <p>A place to relax :)</p>
-         <HomePage/>
-         <h1></h1>
+      <HomePage/>
       </div>
-
     </div>
   );
 }

@@ -13,7 +13,7 @@ class KidsPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Content">
         <IframeComponent src="//cdn.witchhut.com/html5/games/color-me-pets/" height="600px" width="800px"/>
         <IframeComponent src="//cdn.witchhut.com/html5/games/trick-hoops-puzzle-edition/" height="600px" width="800px"/>
         <IframeComponent src="https://boomplop.com/games/boomplop-draw/play" height="600px" width="800px"/>
