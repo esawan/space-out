@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Kids from "./Kids";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       <div className="Content">
          <p>Welcome to S P A C E  O U T</p> 
          <p>A place to relax :)</p>
+         <Kids/>
+         <h1></h1>
       </div>
     </div>
   );
