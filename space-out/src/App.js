@@ -5,6 +5,8 @@ import './App.css';
 import HomePage from "./components/HomePage/HomePage";
 import KidsPage from "./components/KidsPage/KidsPage";
 import TeensPage from "./components/TeensPage/TeensPage";
+import AdultsPage from "./components/AdultsPage/AdultsPage";
+import AboutPage from "./components/AboutPage/AboutPage";
 
 /**
  * Need to run this on command line to get router to work on page; 
@@ -26,27 +28,30 @@ function App() {
       </div>
 
       <div className="KidsTab">
-        Kids
+      <Link to='/kids'style={{textDecoration: 'none'}}> Kids </Link>
       </div>
      
       <div className="TeensTab">
-        Teens
+      <Link to='/teens'style={{textDecoration: 'none'}}> Teens </Link>
       </div>
       
       <div className="AdultsTab">
-        Adults
+      <Link to='/adults'style={{textDecoration: 'none'}}> Adults </Link>
       </div>
       
       <div className="AboutTab">
-        About
+      <Link to='/about'style={{textDecoration: 'none'}}> About </Link>
       </div>
+
       <Route exact path = "/" component = {HomePage}/>
+      <Route exact path = "/kids" component = {KidsPage}/>
+      <Route exact path = "/teens" component = {TeensPage}/>
       </Router>
 
       <div className="Content">
          <p>Welcome to S P A C E  O U T</p> 
          <p>A place to relax :)</p>
-         <TeensPage/>
+         <HomePage/>
          <h1></h1>
       </div>
 
