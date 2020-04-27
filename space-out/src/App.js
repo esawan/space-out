@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 import HomePage from "./components/HomePage/HomePage";
 import Kids from "./Kids";
+import KidsPage from "./components/KidsPage/KidsPage";
+import TeensPage from "./components/TeensPage/TeensPage";
 
 /**
  * Need to run this on command line to get router to work on page; 
@@ -45,7 +47,7 @@ function App() {
       <div className="Content">
          <p>Welcome to S P A C E  O U T</p> 
          <p>A place to relax :)</p>
-         <Kids/>
+         <TeensPage/>
          <h1></h1>
       </div>
 
