@@ -85,3 +85,13 @@
   background-image: url("./media/stars3.png");
 }
 
+
+#Descriptions{
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 35px;
+}
+
+#Home_Description{
+  font-size: 50px;
+}
