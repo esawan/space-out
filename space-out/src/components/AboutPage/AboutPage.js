@@ -11,7 +11,7 @@ class AboutPage extends Component {
  }
   render() {
    return (
-     <div className="Content" id="Descriptions">
+     <div className="Content" id="About_Descriptions">
         <h2>SPACE 💫 OUT was created by four stressed out college students who figured 
           we could all use a little less stress in our lives.</h2>
 

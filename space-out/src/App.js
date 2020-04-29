@@ -23,23 +23,23 @@ function App() {
       </header>
 
       <Router>
-      <div className="HomeTab">
+      <div className="HomeTab" id="Tabs">
       <Link to="/" style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}><p> Home </p></Link>
       </div>
 
-      <div className="KidsTab">
+      <div className="KidsTab" id="Tabs">
       <Link to='/kids'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Kids </Link>
       </div>
      
-      <div className="TeensTab">
+      <div className="TeensTab" id="Tabs">
       <Link to='/teens'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Teenagers </Link>
       </div>
       
-      <div className="AdultsTab">
+      <div className="AdultsTab" id="Tabs">
       <Link to='/adults'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Adults </Link>
       </div>
       
-      <div className="AboutTab">
+      <div className="AboutTab" id="Tabs">
       <Link to='/about'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> About </Link>
       </div>
 
