@@ -3,10 +3,11 @@ import '../../App.css';
 
 function HomePage() {
     return (
-        <div className = "Content">
-            <p>Welcome to S P A C E  O U T</p> 
-            <p>A place to relax :)</p>
-            <p>Home page is currently under construction.</p> 
+        <div className = "Content" id="Home_Description">
+            <h3>Welcome to SPACE 💫 OUT!</h3> 
+            <p>It’s a site specifically designed to help you relax. </p>
+            <p>Click around and find some much needed calm.</p> 
+            <p>💫</p>
         </div>
     );
 }

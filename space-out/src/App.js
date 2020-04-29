@@ -19,12 +19,12 @@ function App() {
   return (
     <div className="App">
       <header className="Header">
-        S P A C E  O U T 
+       <div>SPACE 💫 OUT</div> 
       </header>
 
       <Router>
       <div className="HomeTab">
-      <Link to="/" style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}><p > Home </p></Link>
+      <Link to="/" style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}><p> Home </p></Link>
       </div>
 
       <div className="KidsTab">
@@ -32,7 +32,7 @@ function App() {
       </div>
      
       <div className="TeensTab">
-      <Link to='/teens'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Teens </Link>
+      <Link to='/teens'style={{color: 'inherit', textDecoration: 'inherit', display: 'block'}}> Teenagers </Link>
       </div>
       
       <div className="AdultsTab">
@@ -49,11 +49,7 @@ function App() {
       <Route exact path = "/adults" component = {AdultsPage}/>
       <Route exact path = "/about" component = {AboutPage}/>
       </Router>
-
       
-      <div className="Content">
-      <HomePage/>
-      </div>
     </div>
   );
 }

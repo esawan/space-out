@@ -19,6 +19,7 @@ class TeensPage extends Component {
         <IframeComponent src="https://theuselessweb.com/" height="600px" width="800px"/>
         <IframeComponent src="https://quickdraw.withgoogle.com/" height="600px" width="800px"/>
         <IframeComponent src="https://boomplop.com/games/pickems-tiny-adventure/play" height="600px" width="800px"/>
+        <p>💫</p>
       </div>
     );
   }
