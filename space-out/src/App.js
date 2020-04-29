@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="Header">
-       <div>SPACE OUT</div> 
+       <div>SPACE 💫 OUT</div> 
       </header>
 
       <Router>
