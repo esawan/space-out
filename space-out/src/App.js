@@ -9,9 +9,9 @@ import AdultsPage from "./components/AdultsPage/AdultsPage";
 import AboutPage from "./components/AboutPage/AboutPage";
 
 /**
- * Need to run this on command line to get router to work on page; 
+ * Need to run this on command line to get router to work on page. 
+ * This is installing the react-router-dom module. 
  * npm install -S react-router-dom
- * or this idk
  * npm install react-router-dom --save
  */
 
